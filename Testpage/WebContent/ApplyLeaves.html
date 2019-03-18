@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="stylesheets/style.css">
+<link rel="stylesheet" href="stylesheets/styleresponsive.css">
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- Favicons
+	================================================== -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<style>
+
+</style>
+<meta charset="ISO-8859-1">
+
+</head>
+<body>
+<form name="applyleave" action="ApplyLeaves.jsp" method="get">
+<div class="logo"><img src="images/alfa-soft.png" style="padding:30px 0px 0px 20px" ></div>
+				<span class="subheader" style="padding:30px 0px 0px 20px"><b>Our Key To Success</b></span>
+				
+			
+		
+				<div class="menu" style="float:right; padding:0px 400px 0px 0px">
+				<nav>
+				<ul class="nav nav-pills" id="nv" >
+			<li class="dropdown" id="menu">
+				
+				
+				
+				<li><a href="ShowEmployee.jsp">Salary Details</a></li>
+				
+				<li><a href="">Applied Leaves</a></li>
+				<li><a href="">Change Password</a></li>
+				<li><a href="EmployeeHome.html">Logout</a></li>
+				
+			</ul>
+			
+				</nav>
+				<br><br>
+				<center><h2><b><u><i>Apply For Leave</i></u></b></h2></center>
+			</div>
+			
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3" id="form">
+	
+	<br><br><br><br><br><br>		
+<font size="5" >Leave type &nbsp;</font> <select size="1" name="dropdown">
+<option value="Casual" selected>Casual</option>
+<option value="Medical">Medical</option>
+</select> 
+<br><br><br>
+<font size="5">From       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   </font>
+<input type="date" name="from">
+ <br>
+<br><br>
+<font size="5">To&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>
+<input type="date" name="to"/>
+<br>
+<br><br>
+
+<font size="5">Description</font>
+
+<textarea rows="2" cols="50" name="description"></textarea>
+<br><br><br>
+
+
+<div class="form-group">
+
+
+		<input type="submit" class="btn btn-primary" value="Apply" id="btn"></div>
+
+</div>
+</div>
+</div>
+			
+		
+
+
+</form>
+
+</body>
+</html>
